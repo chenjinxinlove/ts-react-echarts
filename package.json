@@ -1,6 +1,6 @@
 {
   "name": "ts-react-echarts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Using typescript in the react to handle echarts application",
   "main": "index.tsx",
   "scripts": {

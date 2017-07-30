@@ -8,17 +8,31 @@ Using typescript in the react to handle echarts application
  "react": "15.6.1",
  "typescript": "2.4.1",
 ```
-#### 安装
+
+
+#### 依赖
 
 ```
-npm i ts-react-echarts --save
+    "@types/echarts": "0.0.6",
+    "@types/element-resize-event": "2.0.0",
+    "@types/react": "15.0.36",
+    "@types/react-dom": "15.5.1",
+    "echarts": "^3.6.2",
+    "element-resize-event": "^2.0.9",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+```
+#### 安装
+```
+Copy to the plug-in directory, and import
+import {ReactECharts} from '../../plugins/ts-react-echarts';
 ```
 
 #### 使用
 
 ```
 import * as ECharts from 'echarts';
-import {ReactECharts} from 'ts-react-echarts';
+import {ReactECharts} from '../../plugins/ts-react-echarts';
 
 
 const option:ECharts.EChartOption = {
