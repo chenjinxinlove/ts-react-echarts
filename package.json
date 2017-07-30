@@ -1,0 +1,24 @@
+{
+  "name": "ts-react-echarts",
+  "version": "1.0.0",
+  "description": "Using typescript in the react to handle echarts application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenjinxinlove/ts-react-echarts.git"
+  },
+  "keywords": [
+    "react",
+    "echarts",
+    "typescript"
+  ],
+  "author": "chenjinxinlove",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenjinxinlove/ts-react-echarts/issues"
+  },
+  "homepage": "https://github.com/chenjinxinlove/ts-react-echarts#readme"
+}
