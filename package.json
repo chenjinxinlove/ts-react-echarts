@@ -2,13 +2,24 @@
   "name": "ts-react-echarts",
   "version": "1.0.0",
   "description": "Using typescript in the react to handle echarts application",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chenjinxinlove/ts-react-echarts.git"
+  },
+  "dependencies": {
+    "@types/echarts": "0.0.6",
+    "@types/element-resize-event": "2.0.0",
+    "@types/node": "8.0.10",
+    "@types/react": "15.0.36",
+    "@types/react-dom": "15.5.1",
+    "echarts": "^3.6.2",
+    "element-resize-event": "^2.0.9",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   },
   "keywords": [
     "react",
